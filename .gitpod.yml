@@ -1,4 +1,4 @@
-image: nfcore/gitpod:latest
+image: nfcore/gitpod:2.10 #temporarily change to remove multiqc pulling error with docker 25.0.0 (issue: https://github.com/MultiQC/MultiQC/issues/2283)
 tasks:
   - name: Update Nextflow and setup pre-commit
     command: |
